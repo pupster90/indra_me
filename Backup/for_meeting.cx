@@ -1,0 +1,1541 @@
+[{"numberVerification":[{"longNumber":281474976710655}]},{"metaData":[{"name":"provenanceHistory","elementCount":1,"version":"1.0","consistencyGroup":1,"properties":[]},{"name":"nodes","elementCount":10,"idCounter":52,"consistencyGroup":1,"properties":[]},{"name":"edges","elementCount":42,"idCounter":52,"consistencyGroup":1,"properties":[]},{"name":"edgeAttributes","elementCount":294,"idCounter":52,"consistencyGroup":1,"properties":[]},{"name":"networkAttributes","elementCount":2,"idCounter":52,"consistencyGroup":1,"properties":[]},{"name":"nodeAttributes","elementCount":28,"idCounter":52,"consistencyGroup":1,"properties":[]},{"name":"ndexStatus","elementCount":1,"version":"1.0","consistencyGroup":1,"properties":[]}]},
+{"ndexStatus":[{"externalId":"5332cb59-59f4-11e8-a4bf-0ac135e8bacf","creationTime":1526576653754,"modificationTime":1526576653754,"visibility":"PRIVATE","published":false,"nodeCount":10,"edgeCount":42,"owner":"pupster90","ndexServerURI":"http://public.ndexbio.org","readOnly":false}]}, {"provenanceHistory":[{"entity":{"uri":"http://public.ndexbio.org/v2/network/5332cb59-59f4-11e8-a4bf-0ac135e8bacf/summary","creationEvent":{"inputs":null,"startedAtTime":1526576653754,"endedAtTime":1526576653754,"eventType":"Program Upload in CX","properties":[{"name":"user name","value":"pupster90"}]},"properties":[{"name":"dc:title","value":"for_meeting"}]}}]}, {"nodes":[{
+  "@id" : 0,
+  "n" : "EGF"
+}, {
+  "@id" : 1,
+  "n" : "EGFR"
+}, {
+  "@id" : 3,
+  "n" : "GRB2"
+}, {
+  "@id" : 4,
+  "n" : "SOS1"
+}, {
+  "@id" : 6,
+  "n" : "GTP"
+}, {
+  "@id" : 7,
+  "n" : "HRAS"
+}, {
+  "@id" : 9,
+  "n" : "EDN1"
+}, {
+  "@id" : 10,
+  "n" : "EDNRA"
+}, {
+  "@id" : 12,
+  "n" : "GDP"
+}, {
+  "@id" : 17,
+  "n" : "SHC1"
+}]},
+ {"edges":[{
+  "@id" : 2,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 5,
+  "s" : 3,
+  "t" : 4,
+  "i" : "Complex"
+}, {
+  "@id" : 8,
+  "s" : 6,
+  "t" : 7,
+  "i" : "Complex"
+}, {
+  "@id" : 11,
+  "s" : 9,
+  "t" : 10,
+  "i" : "Complex"
+}, {
+  "@id" : 13,
+  "s" : 12,
+  "t" : 7,
+  "i" : "Complex"
+}, {
+  "@id" : 14,
+  "s" : 0,
+  "t" : 0,
+  "i" : "Complex"
+}, {
+  "@id" : 15,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 16,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 18,
+  "s" : 0,
+  "t" : 17,
+  "i" : "Complex"
+}, {
+  "@id" : 19,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 20,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 21,
+  "s" : 0,
+  "t" : 17,
+  "i" : "Complex"
+}, {
+  "@id" : 22,
+  "s" : 1,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 23,
+  "s" : 1,
+  "t" : 17,
+  "i" : "Complex"
+}, {
+  "@id" : 24,
+  "s" : 1,
+  "t" : 17,
+  "i" : "Complex"
+}, {
+  "@id" : 25,
+  "s" : 0,
+  "t" : 0,
+  "i" : "Complex"
+}, {
+  "@id" : 26,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 27,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 28,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 29,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 30,
+  "s" : 1,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 31,
+  "s" : 3,
+  "t" : 0,
+  "i" : "Complex"
+}, {
+  "@id" : 32,
+  "s" : 3,
+  "t" : 0,
+  "i" : "Complex"
+}, {
+  "@id" : 33,
+  "s" : 3,
+  "t" : 4,
+  "i" : "Complex"
+}, {
+  "@id" : 34,
+  "s" : 3,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 35,
+  "s" : 3,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 36,
+  "s" : 3,
+  "t" : 17,
+  "i" : "Complex"
+}, {
+  "@id" : 37,
+  "s" : 0,
+  "t" : 0,
+  "i" : "Complex"
+}, {
+  "@id" : 38,
+  "s" : 0,
+  "t" : 4,
+  "i" : "Complex"
+}, {
+  "@id" : 39,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 40,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 41,
+  "s" : 0,
+  "t" : 17,
+  "i" : "Complex"
+}, {
+  "@id" : 42,
+  "s" : 0,
+  "t" : 4,
+  "i" : "Complex"
+}, {
+  "@id" : 43,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 44,
+  "s" : 0,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 45,
+  "s" : 0,
+  "t" : 17,
+  "i" : "Complex"
+}, {
+  "@id" : 46,
+  "s" : 4,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 47,
+  "s" : 4,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 48,
+  "s" : 4,
+  "t" : 17,
+  "i" : "Complex"
+}, {
+  "@id" : 49,
+  "s" : 1,
+  "t" : 1,
+  "i" : "Complex"
+}, {
+  "@id" : 50,
+  "s" : 1,
+  "t" : 17,
+  "i" : "Complex"
+}, {
+  "@id" : 51,
+  "s" : 1,
+  "t" : 17,
+  "i" : "Complex"
+}]},
+ {"edgeAttributes":[{
+  "po" : 2,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGFR())"
+}, {
+  "po" : 2,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_6f637c56b15cec13ea930fcd84fdbfeb\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"6d028c3e-b6d4-4fc8-80a5-a0dfffeb6c37\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 2,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 2,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 2,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 2,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 2,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 5,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), SOS1())"
+}, {
+  "po" : 5,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_638a82898a0562afa7f287327268c801\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"9292020f-c183-4a1b-872c-0ed9a27ef648\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 5,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 5,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 5,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 5,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 5,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 8,
+  "n" : "INDRA statement",
+  "v" : "Complex(GTP(), HRAS())"
+}, {
+  "po" : 8,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GTP\", \"db_refs\": {\"CHEBI\": \"15996\"}}, {\"name\": \"HRAS\", \"db_refs\": {\"UP\": \"P01112\", \"HGNC\": \"5173\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_2107715063bf241a985a144ce20c1924\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"6009aa0f-cb96-479c-80fd-4cc233b3515d\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 8,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 8,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 8,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 8,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 8,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 11,
+  "n" : "INDRA statement",
+  "v" : "Complex(EDN1(), EDNRA())"
+}, {
+  "po" : 11,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EDN1\", \"db_refs\": {\"UP\": \"P05305\", \"HGNC\": \"3176\"}}, {\"name\": \"EDNRA\", \"db_refs\": {\"UP\": \"P25101\", \"HGNC\": \"3179\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_e92ce78f86b857e3d0ba2b0aee1bfa78\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"ca926563-d6b7-4ee5-abbe-45982c89855e\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 11,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 11,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 11,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 11,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 11,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 13,
+  "n" : "INDRA statement",
+  "v" : "Complex(GDP(), HRAS())"
+}, {
+  "po" : 13,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GDP\", \"db_refs\": {\"CHEBI\": \"17552\"}}, {\"name\": \"HRAS\", \"db_refs\": {\"UP\": \"P01112\", \"HGNC\": \"5173\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_279b8135da109ee307712c6fa17e9499\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"5425106e-0052-459b-87ab-28f69c86916a\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 13,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 13,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 13,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 13,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 13,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 14,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 14,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_884c80c5db0bb39e93a5b0f29d74a4d2\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"f88c0368-c3e0-415e-b5c7-680c76146303\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 14,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 14,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 14,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 14,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 14,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 15,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 15,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_884c80c5db0bb39e93a5b0f29d74a4d2\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"f88c0368-c3e0-415e-b5c7-680c76146303\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 15,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 15,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 15,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 15,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 15,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 16,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 16,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_884c80c5db0bb39e93a5b0f29d74a4d2\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"f88c0368-c3e0-415e-b5c7-680c76146303\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 16,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 16,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 16,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 16,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 16,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 18,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 18,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_884c80c5db0bb39e93a5b0f29d74a4d2\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"f88c0368-c3e0-415e-b5c7-680c76146303\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 18,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 18,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 18,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 18,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 18,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 19,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 19,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_884c80c5db0bb39e93a5b0f29d74a4d2\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"f88c0368-c3e0-415e-b5c7-680c76146303\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 19,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 19,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 19,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 19,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 19,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 20,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 20,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_884c80c5db0bb39e93a5b0f29d74a4d2\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"f88c0368-c3e0-415e-b5c7-680c76146303\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 20,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 20,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 20,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 20,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 20,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 21,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 21,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_884c80c5db0bb39e93a5b0f29d74a4d2\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"f88c0368-c3e0-415e-b5c7-680c76146303\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 21,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 21,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 21,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 21,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 21,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 22,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 22,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_884c80c5db0bb39e93a5b0f29d74a4d2\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"f88c0368-c3e0-415e-b5c7-680c76146303\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 22,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 22,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 22,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 22,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 22,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 23,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 23,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_884c80c5db0bb39e93a5b0f29d74a4d2\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"f88c0368-c3e0-415e-b5c7-680c76146303\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 23,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 23,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 23,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 23,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 23,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 24,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 24,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_884c80c5db0bb39e93a5b0f29d74a4d2\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"f88c0368-c3e0-415e-b5c7-680c76146303\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 24,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 24,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 24,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 24,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 24,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 25,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))"
+}, {
+  "po" : 25,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_15faa752d89ff32f80309b6ba15a10c6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"1f40292f-cbc5-43a2-b600-c8989b48bba0\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 25,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 25,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 25,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 25,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 25,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 26,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))"
+}, {
+  "po" : 26,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_15faa752d89ff32f80309b6ba15a10c6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"1f40292f-cbc5-43a2-b600-c8989b48bba0\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 26,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 26,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 26,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 26,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 26,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 27,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))"
+}, {
+  "po" : 27,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_15faa752d89ff32f80309b6ba15a10c6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"1f40292f-cbc5-43a2-b600-c8989b48bba0\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 27,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 27,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 27,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 27,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 27,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 28,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))"
+}, {
+  "po" : 28,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_15faa752d89ff32f80309b6ba15a10c6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"1f40292f-cbc5-43a2-b600-c8989b48bba0\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 28,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 28,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 28,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 28,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 28,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 29,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))"
+}, {
+  "po" : 29,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_15faa752d89ff32f80309b6ba15a10c6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"1f40292f-cbc5-43a2-b600-c8989b48bba0\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 29,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 29,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 29,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 29,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 29,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 30,
+  "n" : "INDRA statement",
+  "v" : "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))"
+}, {
+  "po" : 30,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_15faa752d89ff32f80309b6ba15a10c6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"1f40292f-cbc5-43a2-b600-c8989b48bba0\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 30,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 30,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 30,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 30,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 30,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 31,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 31,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 31,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 31,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 31,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 31,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 31,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 32,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 32,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 32,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 32,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 32,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 32,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 32,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 33,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 33,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 33,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 33,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 33,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 33,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 33,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 34,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 34,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 34,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 34,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 34,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 34,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 34,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 35,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 35,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 35,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 35,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 35,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 35,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 35,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 36,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 36,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 36,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 36,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 36,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 36,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 36,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 37,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 37,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 37,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 37,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 37,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 37,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 37,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 38,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 38,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 38,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 38,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 38,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 38,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 38,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 39,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 39,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 39,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 39,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 39,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 39,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 39,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 40,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 40,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 40,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 40,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 40,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 40,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 40,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 41,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 41,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 41,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 41,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 41,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 41,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 41,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 42,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 42,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 42,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 42,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 42,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 42,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 42,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 43,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 43,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 43,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 43,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 43,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 43,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 43,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 44,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 44,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 44,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 44,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 44,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 44,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 44,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 45,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 45,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 45,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 45,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 45,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 45,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 45,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 46,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 46,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 46,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 46,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 46,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 46,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 46,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 47,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 47,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 47,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 47,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 47,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 47,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 47,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 48,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 48,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 48,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 48,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 48,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 48,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 48,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 49,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 49,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 49,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 49,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 49,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 49,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 49,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 50,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 50,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 50,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 50,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 50,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 50,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 50,
+  "n" : "supportType",
+  "v" : "database"
+}, {
+  "po" : 51,
+  "n" : "INDRA statement",
+  "v" : "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))"
+}, {
+  "po" : 51,
+  "n" : "INDRA json",
+  "v" : "{\"type\": \"Complex\", \"members\": [{\"name\": \"GRB2\", \"db_refs\": {\"UP\": \"P62993\", \"HGNC\": \"4566\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"EGF\", \"db_refs\": {\"UP\": \"P01133\", \"HGNC\": \"3229\"}}, {\"name\": \"SOS1\", \"db_refs\": {\"UP\": \"Q07889\", \"HGNC\": \"11187\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"EGFR\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P00533\", \"HGNC\": \"3236\"}}, {\"name\": \"SHC1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"240\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"239\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"Y\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {\"UP\": \"P29353\", \"HGNC\": \"10840\"}}], \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://pathwaycommons.org/pc2/Complex_c53abe2ed04bc8f78cdd281e0a8990a6\", \"annotations\": {\"source_sub_id\": \"pid\"}, \"epistemics\": {\"direct\": true}}], \"id\": \"c9f07276-1283-4d4a-904d-b39e8b4673b3\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000526\"}"
+}, {
+  "po" : 51,
+  "n" : "type",
+  "v" : "Complex"
+}, {
+  "po" : 51,
+  "n" : "polarity",
+  "v" : "none"
+}, {
+  "po" : 51,
+  "n" : "Belief score",
+  "v" : "1.00"
+}, {
+  "po" : 51,
+  "n" : "indra",
+  "v" : ""
+}, {
+  "po" : 51,
+  "n" : "supportType",
+  "v" : "database"
+}]},
+ {"networkAttributes":[{
+  "n" : "name",
+  "v" : "for_meeting"
+}, {
+  "n" : "description",
+  "v" : ""
+}]},
+ {"nodeAttributes":[{
+  "po" : 0,
+  "n" : "type",
+  "v" : "protein"
+}, {
+  "po" : 0,
+  "n" : "UniProt",
+  "v" : "http://identifiers.org/uniprot/P01133"
+}, {
+  "po" : 0,
+  "n" : "HGNC",
+  "v" : "http://identifiers.org/hgnc/HGNC:3229"
+}, {
+  "po" : 1,
+  "n" : "type",
+  "v" : "protein"
+}, {
+  "po" : 1,
+  "n" : "UniProt",
+  "v" : "http://identifiers.org/uniprot/P00533"
+}, {
+  "po" : 1,
+  "n" : "HGNC",
+  "v" : "http://identifiers.org/hgnc/HGNC:3236"
+}, {
+  "po" : 3,
+  "n" : "type",
+  "v" : "protein"
+}, {
+  "po" : 3,
+  "n" : "UniProt",
+  "v" : "http://identifiers.org/uniprot/P62993"
+}, {
+  "po" : 3,
+  "n" : "HGNC",
+  "v" : "http://identifiers.org/hgnc/HGNC:4566"
+}, {
+  "po" : 4,
+  "n" : "type",
+  "v" : "protein"
+}, {
+  "po" : 4,
+  "n" : "UniProt",
+  "v" : "http://identifiers.org/uniprot/Q07889"
+}, {
+  "po" : 4,
+  "n" : "HGNC",
+  "v" : "http://identifiers.org/hgnc/HGNC:11187"
+}, {
+  "po" : 6,
+  "n" : "type",
+  "v" : "chemical"
+}, {
+  "po" : 6,
+  "n" : "ChEBI",
+  "v" : "http://identifiers.org/chebi/15996"
+}, {
+  "po" : 7,
+  "n" : "type",
+  "v" : "protein"
+}, {
+  "po" : 7,
+  "n" : "UniProt",
+  "v" : "http://identifiers.org/uniprot/P01112"
+}, {
+  "po" : 7,
+  "n" : "HGNC",
+  "v" : "http://identifiers.org/hgnc/HGNC:5173"
+}, {
+  "po" : 9,
+  "n" : "type",
+  "v" : "protein"
+}, {
+  "po" : 9,
+  "n" : "UniProt",
+  "v" : "http://identifiers.org/uniprot/P05305"
+}, {
+  "po" : 9,
+  "n" : "HGNC",
+  "v" : "http://identifiers.org/hgnc/HGNC:3176"
+}, {
+  "po" : 10,
+  "n" : "type",
+  "v" : "protein"
+}, {
+  "po" : 10,
+  "n" : "UniProt",
+  "v" : "http://identifiers.org/uniprot/P25101"
+}, {
+  "po" : 10,
+  "n" : "HGNC",
+  "v" : "http://identifiers.org/hgnc/HGNC:3179"
+}, {
+  "po" : 12,
+  "n" : "type",
+  "v" : "chemical"
+}, {
+  "po" : 12,
+  "n" : "ChEBI",
+  "v" : "http://identifiers.org/chebi/17552"
+}, {
+  "po" : 17,
+  "n" : "type",
+  "v" : "protein"
+}, {
+  "po" : 17,
+  "n" : "UniProt",
+  "v" : "http://identifiers.org/uniprot/P29353"
+}, {
+  "po" : 17,
+  "n" : "HGNC",
+  "v" : "http://identifiers.org/hgnc/HGNC:10840"
+}]},
+{"status":[{"error":"","success":true}]}]

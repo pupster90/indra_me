@@ -1,0 +1,1554 @@
+[
+  {
+    "numberVerification": [
+      {
+        "longNumber": 281474976710655
+      }
+    ]
+  },
+  {
+    "metaData": [
+      {
+        "name": "@Context",
+        "idCounter": 52,
+        "consistencyGroup": 1,
+        "elementCount": 1
+      },
+      {
+        "name": "networkAttributes",
+        "idCounter": 52,
+        "consistencyGroup": 1,
+        "elementCount": 3
+      },
+      {
+        "name": "nodes",
+        "idCounter": 52,
+        "consistencyGroup": 1,
+        "elementCount": 10
+      },
+      {
+        "name": "edges",
+        "idCounter": 52,
+        "consistencyGroup": 1,
+        "elementCount": 42
+      },
+      {
+        "name": "nodeAttributes",
+        "idCounter": 52,
+        "consistencyGroup": 1,
+        "elementCount": 20
+      },
+      {
+        "name": "edgeAttributes",
+        "idCounter": 52,
+        "consistencyGroup": 1,
+        "elementCount": 210
+      }
+    ]
+  },
+  {
+    "@Context": [
+      {
+        "pubmed": "http://identifiers.org/pubmed/",
+        "cas": "http://identifiers.org/cas/",
+        "uniprot knowledgebase": "http://identifiers.org/uniprot/",
+        "chebi": "http://identifiers.org/chebi/CHEBI:",
+        "HGNC": "https://www.ebi.ac.uk/miriam/main/datatypes/MIR:00000080",
+        "KEGG Compound": "http://identifiers.org/kegg.compound/",
+        "hprd": "http://identifiers.org/hprd/"
+      }
+    ]
+  },
+  {
+    "networkAttributes": [
+      {
+        "n": "name",
+        "v": "small_network2"
+      },
+      {
+        "n": "description",
+        "v": "An Indra Auto-Curated network"
+      },
+      {
+        "n": "version",
+        "v": "1.0"
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "@id": 0,
+        "n": "EGF",
+        "r": "EGF"
+      },
+      {
+        "@id": 1,
+        "n": "EGFR",
+        "r": "EGFR"
+      },
+      {
+        "@id": 3,
+        "n": "GRB2",
+        "r": "GRB2"
+      },
+      {
+        "@id": 4,
+        "n": "SOS1",
+        "r": "SOS1"
+      },
+      {
+        "@id": 6,
+        "n": "GTP",
+        "r": "GTP"
+      },
+      {
+        "@id": 7,
+        "n": "HRAS",
+        "r": "HRAS"
+      },
+      {
+        "@id": 9,
+        "n": "EDN1",
+        "r": "EDN1"
+      },
+      {
+        "@id": 10,
+        "n": "EDNRA",
+        "r": "EDNRA"
+      },
+      {
+        "@id": 12,
+        "n": "GDP",
+        "r": "GDP"
+      },
+      {
+        "@id": 17,
+        "n": "SHC1",
+        "r": "SHC1"
+      }
+    ]
+  },
+  {
+    "edges": [
+      {
+        "@id": 2,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 5,
+        "t": 4,
+        "s": 3,
+        "i": "Complex"
+      },
+      {
+        "@id": 8,
+        "t": 7,
+        "s": 6,
+        "i": "Complex"
+      },
+      {
+        "@id": 11,
+        "t": 10,
+        "s": 9,
+        "i": "Complex"
+      },
+      {
+        "@id": 13,
+        "t": 7,
+        "s": 12,
+        "i": "Complex"
+      },
+      {
+        "@id": 14,
+        "t": 0,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 15,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 16,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 18,
+        "t": 17,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 19,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 20,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 21,
+        "t": 17,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 22,
+        "t": 1,
+        "s": 1,
+        "i": "Complex"
+      },
+      {
+        "@id": 23,
+        "t": 17,
+        "s": 1,
+        "i": "Complex"
+      },
+      {
+        "@id": 24,
+        "t": 17,
+        "s": 1,
+        "i": "Complex"
+      },
+      {
+        "@id": 25,
+        "t": 0,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 26,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 27,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 28,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 29,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 30,
+        "t": 1,
+        "s": 1,
+        "i": "Complex"
+      },
+      {
+        "@id": 31,
+        "t": 0,
+        "s": 3,
+        "i": "Complex"
+      },
+      {
+        "@id": 32,
+        "t": 0,
+        "s": 3,
+        "i": "Complex"
+      },
+      {
+        "@id": 33,
+        "t": 4,
+        "s": 3,
+        "i": "Complex"
+      },
+      {
+        "@id": 34,
+        "t": 1,
+        "s": 3,
+        "i": "Complex"
+      },
+      {
+        "@id": 35,
+        "t": 1,
+        "s": 3,
+        "i": "Complex"
+      },
+      {
+        "@id": 36,
+        "t": 17,
+        "s": 3,
+        "i": "Complex"
+      },
+      {
+        "@id": 37,
+        "t": 0,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 38,
+        "t": 4,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 39,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 40,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 41,
+        "t": 17,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 42,
+        "t": 4,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 43,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 44,
+        "t": 1,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 45,
+        "t": 17,
+        "s": 0,
+        "i": "Complex"
+      },
+      {
+        "@id": 46,
+        "t": 1,
+        "s": 4,
+        "i": "Complex"
+      },
+      {
+        "@id": 47,
+        "t": 1,
+        "s": 4,
+        "i": "Complex"
+      },
+      {
+        "@id": 48,
+        "t": 17,
+        "s": 4,
+        "i": "Complex"
+      },
+      {
+        "@id": 49,
+        "t": 1,
+        "s": 1,
+        "i": "Complex"
+      },
+      {
+        "@id": 50,
+        "t": 17,
+        "s": 1,
+        "i": "Complex"
+      },
+      {
+        "@id": 51,
+        "t": 17,
+        "s": 1,
+        "i": "Complex"
+      }
+    ]
+  },
+  {
+    "nodeAttributes": [
+      {
+        "v": "protein",
+        "n": "type",
+        "po": 0
+      },
+      {
+        "v": "['uniprot knowledgebase:P01133', 'HGNC:3229']",
+        "n": "alias",
+        "po": 0
+      },
+      {
+        "v": "protein",
+        "n": "type",
+        "po": 1
+      },
+      {
+        "v": "['uniprot knowledgebase:P00533', 'HGNC:3236']",
+        "n": "alias",
+        "po": 1
+      },
+      {
+        "v": "protein",
+        "n": "type",
+        "po": 3
+      },
+      {
+        "v": "['uniprot knowledgebase:P62993', 'HGNC:4566']",
+        "n": "alias",
+        "po": 3
+      },
+      {
+        "v": "protein",
+        "n": "type",
+        "po": 4
+      },
+      {
+        "v": "['uniprot knowledgebase:Q07889', 'HGNC:11187']",
+        "n": "alias",
+        "po": 4
+      },
+      {
+        "v": "chemical",
+        "n": "type",
+        "po": 6
+      },
+      {
+        "v": "['ChEBI:15996']",
+        "n": "alias",
+        "po": 6
+      },
+      {
+        "v": "protein",
+        "n": "type",
+        "po": 7
+      },
+      {
+        "v": "['uniprot knowledgebase:P01112', 'HGNC:5173']",
+        "n": "alias",
+        "po": 7
+      },
+      {
+        "v": "protein",
+        "n": "type",
+        "po": 9
+      },
+      {
+        "v": "['uniprot knowledgebase:P05305', 'HGNC:3176']",
+        "n": "alias",
+        "po": 9
+      },
+      {
+        "v": "protein",
+        "n": "type",
+        "po": 10
+      },
+      {
+        "v": "['uniprot knowledgebase:P25101', 'HGNC:3179']",
+        "n": "alias",
+        "po": 10
+      },
+      {
+        "v": "chemical",
+        "n": "type",
+        "po": 12
+      },
+      {
+        "v": "['ChEBI:17552']",
+        "n": "alias",
+        "po": 12
+      },
+      {
+        "v": "protein",
+        "n": "type",
+        "po": 17
+      },
+      {
+        "v": "['uniprot knowledgebase:P29353', 'HGNC:10840']",
+        "n": "alias",
+        "po": 17
+      }
+    ]
+  },
+  {
+    "edgeAttributes": [
+      {
+        "v": "Complex(EGF(), EGFR())",
+        "n": "INDRA statement",
+        "po": 2
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 2
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 2
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 2
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 2
+      },
+      {
+        "v": "Complex(GRB2(), SOS1())",
+        "n": "INDRA statement",
+        "po": 5
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 5
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 5
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 5
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 5
+      },
+      {
+        "v": "Complex(GTP(), HRAS())",
+        "n": "INDRA statement",
+        "po": 8
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 8
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 8
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 8
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 8
+      },
+      {
+        "v": "Complex(EDN1(), EDNRA())",
+        "n": "INDRA statement",
+        "po": 11
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 11
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 11
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 11
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 11
+      },
+      {
+        "v": "Complex(GDP(), HRAS())",
+        "n": "INDRA statement",
+        "po": 13
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 13
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 13
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 13
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 13
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 14
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 14
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 14
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 14
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 14
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 15
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 15
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 15
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 15
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 15
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 16
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 16
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 16
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 16
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 16
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 18
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 18
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 18
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 18
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 18
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 19
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 19
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 19
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 19
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 19
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 20
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 20
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 20
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 20
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 20
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 21
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 21
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 21
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 21
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 21
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 22
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 22
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 22
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 22
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 22
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 23
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 23
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 23
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 23
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 23
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 24
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 24
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 24
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 24
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 24
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))",
+        "n": "INDRA statement",
+        "po": 25
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 25
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 25
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 25
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 25
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))",
+        "n": "INDRA statement",
+        "po": 26
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 26
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 26
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 26
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 26
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))",
+        "n": "INDRA statement",
+        "po": 27
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 27
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 27
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 27
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 27
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))",
+        "n": "INDRA statement",
+        "po": 28
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 28
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 28
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 28
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 28
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))",
+        "n": "INDRA statement",
+        "po": 29
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 29
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 29
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 29
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 29
+      },
+      {
+        "v": "Complex(EGF(), EGF(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)))",
+        "n": "INDRA statement",
+        "po": 30
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 30
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 30
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 30
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 30
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 31
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 31
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 31
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 31
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 31
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 32
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 32
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 32
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 32
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 32
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 33
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 33
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 33
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 33
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 33
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 34
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 34
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 34
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 34
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 34
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 35
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 35
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 35
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 35
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 35
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 36
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 36
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 36
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 36
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 36
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 37
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 37
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 37
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 37
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 37
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 38
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 38
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 38
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 38
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 38
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 39
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 39
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 39
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 39
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 39
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 40
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 40
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 40
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 40
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 40
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 41
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 41
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 41
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 41
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 41
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 42
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 42
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 42
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 42
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 42
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 43
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 43
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 43
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 43
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 43
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 44
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 44
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 44
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 44
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 44
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 45
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 45
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 45
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 45
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 45
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 46
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 46
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 46
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 46
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 46
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 47
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 47
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 47
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 47
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 47
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 48
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 48
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 48
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 48
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 48
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 49
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 49
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 49
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 49
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 49
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 50
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 50
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 50
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 50
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 50
+      },
+      {
+        "v": "Complex(GRB2(), EGF(), EGF(), SOS1(), EGFR(mods: (phosphorylation, Y)), EGFR(mods: (phosphorylation, Y)), SHC1(mods: (phosphorylation, Y, 240), (phosphorylation, Y, 239), (phosphorylation, Y, 317)))",
+        "n": "INDRA statement",
+        "po": 51
+      },
+      {
+        "v": "Complex",
+        "n": "type",
+        "po": 51
+      },
+      {
+        "v": "none",
+        "n": "polarity",
+        "po": 51
+      },
+      {
+        "v": "1.00",
+        "n": "Belief score",
+        "po": 51
+      },
+      {
+        "v": "database",
+        "n": "supportType",
+        "po": 51
+      }
+    ]
+  },
+  {
+    "status": [
+      {
+        "success": true,
+        "error": ""
+      }
+    ]
+  }
+]
