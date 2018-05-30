@@ -1,0 +1,163 @@
+[
+  {
+    "numberVerification": [
+      {
+        "longNumber": 281474976710655
+      }
+    ]
+  },
+  {
+    "metaData": [
+      {
+        "consistencyGroup": 1,
+        "idCounter": 52,
+        "name": "@Context",
+        "elementCount": 1
+      },
+      {
+        "consistencyGroup": 1,
+        "idCounter": 52,
+        "name": "networkAttributes",
+        "elementCount": 3
+      },
+      {
+        "consistencyGroup": 1,
+        "idCounter": 52,
+        "name": "nodes",
+        "elementCount": 10
+      },
+      {
+        "consistencyGroup": 1,
+        "idCounter": 52,
+        "name": "edges",
+        "elementCount": 42
+      },
+      {
+        "consistencyGroup": 1,
+        "idCounter": 52,
+        "name": "nodeAttributes",
+        "elementCount": 20
+      },
+      {
+        "consistencyGroup": 1,
+        "idCounter": 52,
+        "name": "edgeAttributes",
+        "elementCount": 210
+      }
+    ]
+  },
+  {
+    "@Context": [
+      {
+        "pubmed": "http://identifiers.org/pubmed/",
+        "KEGG Compound": "http://identifiers.org/kegg.compound/",
+        "hprd": "http://identifiers.org/hprd/",
+        "cas": "http://identifiers.org/cas/",
+        "HGNC": "https://www.ebi.ac.uk/miriam/main/datatypes/MIR:00000080",
+        "chebi": "http://identifiers.org/chebi/CHEBI:",
+        "uniprot knowledgebase": "http://identifiers.org/uniprot/"
+      }
+    ]
+  },
+  {
+    "networkAttributes": [
+      {
+        "n": "name",
+        "v": "small3"
+      },
+      {
+        "n": "description",
+        "v": "An Indra Auto-Curated network"
+      },
+      {
+        "n": "version",
+        "v": "1.0"
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "n": "EGF",
+        "@id": 0,
+        "r": "EGF"
+      },
+      {
+        "n": "EGFR",
+        "@id": 1,
+        "r": "EGFR"
+      }
+    ]
+  },
+  {
+    "edges": [
+      {
+        "i": "Complex",
+        "s": 0,
+        "@id": 2,
+        "t": 1
+      }
+    ]
+  },
+  {
+    "nodeAttributes": [
+      {
+        "n": "type",
+        "v": "protein",
+        "po": 0
+      },
+      {
+        "n": "alias",
+        "v": '[  \"uniprot knowledgebase:P01133",\"HGNC:3229"\]',
+        "po": 0
+      },
+      {
+        "n": "type",
+        "v": "protein",
+        "po": 1
+      },
+      {
+        "n": "alias",
+        "v": '[ "uniprot knowledgebase:P00533", "HGNC:3236" ]',
+        "po": 1
+      }
+    ]
+  },
+  {
+    "edgeAttributes": [
+      {
+        "n": "INDRA statement",
+        "v": "Complex(EGF(), EGFR())",
+        "po": 2
+      },
+      {
+        "n": "type",
+        "v": "Complex",
+        "po": 2
+      },
+      {
+        "n": "polarity",
+        "v": "none",
+        "po": 2
+      },
+      {
+        "n": "Belief score",
+        "v": "1.00",
+        "po": 2
+      },
+      {
+        "n": "supportType",
+        "v": "database",
+        "po": 2
+      }
+    ]
+  },
+  {
+    "status": [
+      {
+        "success": true,
+        "error": ""
+      }
+    ]
+  }
+]
